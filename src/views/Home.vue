@@ -12,5 +12,10 @@ export default {
   name: 'Home',
   components: {
   },
+  data() {
+    return {
+      titleThing: process.env.VUE_APP_API_KEY,
+    };
+  },
 };
 </script>
